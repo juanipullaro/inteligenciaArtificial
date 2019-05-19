@@ -1,15 +1,11 @@
 recorridos = [["Ciudad 1","Ciudad 2"],["Ciudad 1","Ciudad 3","Ciudad 4"],
 	["Ciudad 1","Ciudad 3","Ciudad 5","Ciudad 4"],["Ciudad 1","Ciudad 6","Ciudad 7"],["Ciudad 8"]]
+
 def main():
 	
 	print(recorridos)
-	print()
-
-	#origen = 'Ciudad 4'
 	origen = input("Ingrese Origen: ")
-	#destino = 'Ciudad 6'
 	destino = input("Ingrese Destino: ")
-
 	conexion(origen,destino)
 
 def conexion(a,b):
